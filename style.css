@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-family: "Mulish", sans-serif;
+    font-size: 62.5%;
+
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+header{
+    background-color: white;
+    width: 100%;
+}
+
+h1 {
+    font-size: 3.2rem;
+    color: #B52184;
+}
+
+h2 {
+    font-size: 2.0rem;
+    color: #312D64;
+    margin-bottom: 3.5rem;
+}
+
+.buttonSet img {
+    display: block;
+    margin-left: 0;
+}
+
+p {
+    font-size: 1.6rem;
+    color: #312D64;
+}
+
+main {
+    margin-top: 9.3rem;
+    background-color: #343193;
+    padding: 5.0rem 4.0rem;
+    width: 100%;    
+}
+
+.square {
+    background-color: white;
+    border: 2px solid #343193;
+    border-radius: 2.0rem;
+    margin-top: 5.0rem;
+
+}
+
+.square img {
+    display: block;
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
+    width: 8.0rem;
+}
+
+.square h1 {
+    font-size: 3.0rem;
+    text-align: left;
+    width: 26.5rem;
+    margin: 3.0rem 9.5rem 2.0rem 2.0rem;
+}
+
+.square p {
+    text-align: left;
+    width: 26.5rem;
+    margin: 2.0rem 6.0rem 2.5rem 2.5rem;
+}
+
+.contact{
+    width: 35.0rem;
+    margin: 7.8rem 4.0rem 6.5rem 4.0rem;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    align-items: start;
+}
+
+.contact h1{
+    margin-bottom: 1.6rem;
+}
+
+input{
+    height: 4.8rem;
+}
+
+.input-contact{
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 34.8rem;
+
+}
+
+.input-contact label {
+    opacity: 0;
+    height: 0;
+}
+
+textarea{
+    resize: none;
+    height: 12.6rem;
+}
+
+.input-contact input, 
+.input-contact textarea{
+    font-family: "Mulish", sans-serif;
+    font-size: 1.6rem;
+    width: 100%;
+    align-items: center;
+    padding: 1.6rem;
+    
+    border: 2px solid #312D64;
+    border-radius: 1.6rem;
+}
+
+#event-name{
+    background-image: url("img/person.jpg");
+    background-repeat: no-repeat;
+    background-position: 8px 50%;
+    text-indent: 20px;
+}
+
+#event-email{
+    background-image: url("img/at.jpg");
+    background-repeat: no-repeat;
+    background-position: 8px 50%;
+    text-indent: 20px;
+}
+
+button.send{
+    background-color: #343193;
+    color: white;
+    font-size: 1.4rem;
+    padding: 1.0rem 1.6rem;
+    border-radius: 1.6rem;
+    border: #262297 ;
+}
+button.send:hover {
+    background-color: #3b387e;
+}
+
+footer {
+    width: 100%;
+    background-color:#343193;
+}
+
+footer p {
+    font-size: 1.6rem;
+    color: white;
+}
+
+
+@media (min-width: 900px) {
+
+section{
+    display: flex;
+    gap: 6.0rem;
+    margin: 4rem 5.0rem;
+    justify-content: center;
+}   
+
+.contact{
+    display: flex;
+}
+
+.input-contact input, 
+.input-contact textarea{
+    width: 59.2rem;
+}
+
+footer{
+    font-size: 2.0rem;
+    padding: 1.6rem;
+    margin-top: 7.8rem;
+}
+
+}
